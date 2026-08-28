@@ -3,9 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.routers import health, hubs, routes, packages, risks, incidents, rfid, sync
 from app.database import engine, Base
 
-# We assume tables already exist in Supabase
-# Base.metadata.create_all(bind=engine)
-
 app = FastAPI(
     title="RelayTrack API",
     description="Backend API for RelayTrack - Smart Delivery & Delay Tracker",
@@ -28,6 +25,14 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Root route
+@app.get("/")
+def root():
+    return {
+        "message": "Welcome to RelayTrack API",
+        "status": "running"
+    }
 
 # Include routers
 app.include_router(health.router)
