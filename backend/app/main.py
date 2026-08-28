@@ -15,9 +15,10 @@ app = FastAPI(
 # CORS configuration
 origins = [
     "http://localhost",
-    "http://localhost:5173", # Default Vite port
+    "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:3000",
+    "https://relaytrack-frontend.onrender.com",
 ]
 
 app.add_middleware(
