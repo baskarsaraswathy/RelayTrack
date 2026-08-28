@@ -1,0 +1,10 @@
+{
+  "description": "Monitor and manage package deliveries in real-time with a comprehensive dashboard that tracks shipments, identifies risks, and optimizes routes for logistics managers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,321 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img
+      - generic [ref=e7]:
+        - generic [ref=e8]: RelayTrack
+        - generic [ref=e9]: DELIVERY COMMAND
+    - generic [ref=e10]:
+      - button "Command Center" [ref=e11]
+      - button "Live Shipments" [ref=e12]
+      - button "Risk Monitor" [ref=e13]
+      - button "Route Planner" [ref=e14]
+      - button "Legacy Feed" [ref=e15]
+      - button "Offline Sync" [ref=e16]
+      - button "Settings" [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e20]: ONLINE
+      - generic [ref=e22]: RK
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: "150"
+          - generic:
+            - img
+        - generic [ref=e30]: Total Packages
+        - generic [ref=e31]: +14 today
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: "47"
+          - generic:
+            - img
+        - generic [ref=e37]: In Transit
+        - generic [ref=e38]: 31 active hubs
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: "12"
+          - generic:
+            - img
+        - generic [ref=e43]: At Risk
+        - generic [ref=e44]: +2 last hour
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: "8"
+          - generic:
+            - img
+        - generic [ref=e50]: Delayed
+        - generic [ref=e51]: avg 47 min late
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: "83"
+          - generic:
+            - img
+        - generic [ref=e56]: Delivered Today
+        - generic [ref=e57]: 96.4% on-time rate
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: Live Transportation Map
+            - generic [ref=e63]: LIVE
+          - generic [ref=e64]:
+            - generic [ref=e65]: India Network
+            - generic [ref=e66]: "|"
+            - generic [ref=e67]: 7 tracked
+        - img [ref=e69]:
+          - generic [ref=e115]:
+            - generic [ref=e119]: Delhi
+            - generic [ref=e120]: 24 pkgs
+          - generic [ref=e121]:
+            - generic [ref=e125]: Mumbai
+            - generic [ref=e126]: 31 pkgs
+            - generic [ref=e127]: CONG
+          - generic [ref=e128]:
+            - generic [ref=e132]: Pune
+            - generic [ref=e133]: 18 pkgs
+          - generic [ref=e134]:
+            - generic [ref=e138]: Hyderabad
+            - generic [ref=e139]: 27 pkgs
+          - generic [ref=e140]:
+            - generic [ref=e144]: Bangalore
+            - generic [ref=e145]: 22 pkgs
+          - generic [ref=e146]:
+            - generic [ref=e150]: Vellore
+            - generic [ref=e151]: 9 pkgs
+          - generic [ref=e152]:
+            - generic [ref=e156]: Chennai
+            - generic [ref=e157]: 19 pkgs
+          - generic [ref=e158]:
+            - generic [ref=e161]: PACKAGE STATUS
+            - generic [ref=e164]: Normal
+            - generic [ref=e167]: At Risk
+            - generic [ref=e170]: Delayed
+            - generic [ref=e173]: Rerouted
+            - generic [ref=e175]: Normal route
+            - generic [ref=e177]: Congested
+            - generic [ref=e179]: Blocked
+          - generic [ref=e180]:
+            - generic [ref=e184]: Hub active
+            - generic [ref=e188]: Hub congested
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - generic [ref=e192]: Risk Alerts
+            - generic [ref=e193]: "4"
+          - generic [ref=e194]: 16:42 IST
+        - generic [ref=e195]:
+          - generic [ref=e196]: Active Alerts
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: PKG-3045
+              - generic [ref=e201]: CRITICAL
+            - generic [ref=e202]:
+              - generic [ref=e203]: Hyderabad
+              - img [ref=e204]
+              - generic [ref=e206]: Chennai
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e209]: Current ETA
+                - generic [ref=e210]: 23:15
+              - generic [ref=e211]:
+                - generic [ref=e212]: Deadline
+                - generic [ref=e213]: 20:00
+            - generic [ref=e214]:
+              - generic [ref=e215]: DELAYED
+              - generic [ref=e216]: Weather disruption
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - generic [ref=e219]: PKG-1024
+              - generic [ref=e221]: HIGH
+            - generic [ref=e222]:
+              - generic [ref=e223]: Vellore
+              - img [ref=e224]
+              - generic [ref=e226]: Bangalore
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - generic [ref=e229]: Current ETA
+                - generic [ref=e230]: 19:05
+              - generic [ref=e231]:
+                - generic [ref=e232]: Deadline
+                - generic [ref=e233]: 18:30
+            - generic [ref=e234]:
+              - generic [ref=e235]: AT RISK
+              - generic [ref=e236]: Traffic congestion
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - generic [ref=e239]: PKG-7891
+              - generic [ref=e241]: HIGH
+            - generic [ref=e242]:
+              - generic [ref=e243]: Mumbai
+              - img [ref=e244]
+              - generic [ref=e246]: Bangalore
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - generic [ref=e249]: Current ETA
+                - generic [ref=e250]: 20:30
+              - generic [ref=e251]:
+                - generic [ref=e252]: Deadline
+                - generic [ref=e253]: 19:45
+            - generic [ref=e254]:
+              - generic [ref=e255]: AT RISK
+              - generic [ref=e256]: Customs clearance delay
+          - generic [ref=e257]:
+            - generic [ref=e258]:
+              - generic [ref=e259]: PKG-5678
+              - generic [ref=e261]: MEDIUM
+            - generic [ref=e262]:
+              - generic [ref=e263]: Bangalore
+              - img [ref=e264]
+              - generic [ref=e266]: Mumbai
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - generic [ref=e269]: Current ETA
+                - generic [ref=e270]: 22:00
+              - generic [ref=e271]:
+                - generic [ref=e272]: Deadline
+                - generic [ref=e273]: 21:30
+            - generic [ref=e274]:
+              - generic [ref=e275]: REROUTED
+              - generic [ref=e276]: Hub congestion at Pune
+          - generic [ref=e277]:
+            - generic [ref=e278]: All Shipments
+            - generic [ref=e279]: (3)
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - generic [ref=e282]: PKG-2891
+              - generic [ref=e283]: ON TRACK
+            - generic [ref=e285]: Mumbai → Delhi
+            - generic [ref=e287]: ETA 21:30
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - generic [ref=e290]: PKG-4112
+              - generic [ref=e291]: ON TRACK
+            - generic [ref=e293]: Delhi → Hyderabad
+            - generic [ref=e295]: ETA 17:45
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - generic [ref=e298]: PKG-6234
+              - generic [ref=e299]: ON TRACK
+            - generic [ref=e301]: Chennai → Delhi
+            - generic [ref=e303]: ETA 08:00+1
+    - generic [ref=e304]:
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - generic [ref=e307]: Activity Feed
+          - generic [ref=e308]: LIVE
+        - generic [ref=e309]: Last 30 min · 10 events
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - generic:
+              - img
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e316]: ARRIVAL
+                - generic [ref=e317]: PKG-4112
+              - paragraph [ref=e318]: Package arrived at Hyderabad hub for processing
+          - generic [ref=e319]:
+            - generic [ref=e320]: 16:42:18
+            - generic [ref=e321]: Hyderabad
+        - generic [ref=e322]:
+          - generic [ref=e323]:
+            - generic:
+              - img
+            - generic [ref=e325]:
+              - generic [ref=e327]: INCIDENT
+              - paragraph [ref=e328]: Traffic incident on VEL-BLR corridor — PKG-1024 delayed 35 min
+          - generic [ref=e329]:
+            - generic [ref=e330]: 16:41:05
+            - generic [ref=e331]: Vellore–Bangalore
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - generic:
+              - img
+            - generic [ref=e336]:
+              - generic [ref=e337]:
+                - generic [ref=e338]: RFID SCAN
+                - generic [ref=e339]: PKG-2891
+              - paragraph [ref=e340]: RFID scan received at Pune checkpoint
+          - generic [ref=e341]:
+            - generic [ref=e342]: 16:39:52
+            - generic [ref=e343]: Pune
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - generic:
+              - img
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - generic [ref=e349]: REROUTED
+                - generic [ref=e350]: PKG-5678
+              - paragraph [ref=e351]: "Route recalculated: BLR-PUN-MUM bypassed congestion node"
+          - generic [ref=e352]:
+            - generic [ref=e353]: 16:38:30
+            - generic [ref=e354]: Bangalore
+        - generic [ref=e355]:
+          - generic [ref=e356]:
+            - generic:
+              - img
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - generic [ref=e360]: DEPARTURE
+                - generic [ref=e361]: PKG-6234
+              - paragraph [ref=e362]: Package departed Chennai hub — en route to Delhi
+          - generic [ref=e363]:
+            - generic [ref=e364]: 16:37:14
+            - generic [ref=e365]: Chennai
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - generic:
+              - img
+            - generic [ref=e370]:
+              - generic [ref=e372]: OFFLINE
+              - paragraph [ref=e373]: Vellore scanner node went offline — 3 events queued for sync
+          - generic [ref=e374]:
+            - generic [ref=e375]: 16:35:59
+            - generic [ref=e376]: Vellore
+        - generic [ref=e377]:
+          - generic [ref=e378]:
+            - generic:
+              - img
+            - generic [ref=e382]:
+              - generic [ref=e384]: SYNC
+              - paragraph [ref=e385]: Offline sync completed successfully — 7 events uploaded from Hyderabad
+          - generic [ref=e386]:
+            - generic [ref=e387]: 16:34:22
+            - generic [ref=e388]: Hyderabad
+        - generic [ref=e389]:
+          - generic [ref=e390]:
+            - generic:
+              - img
+            - generic [ref=e392]:
+              - generic [ref=e394]: INCIDENT
+              - paragraph [ref=e395]: "Weather alert: heavy rain affecting HYD-CHN route — estimated +3h 15m"
+          - generic [ref=e396]:
+            - generic [ref=e397]: 16:33:01
+            - generic [ref=e398]: Hyderabad–Chennai
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - generic:
+              - img
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - generic [ref=e404]: ARRIVAL
+                - generic [ref=e405]: PKG-7891
+              - paragraph [ref=e406]: Package arrived at Mumbai hub — customs clearance pending
+          - generic [ref=e407]:
+            - generic [ref=e408]: 16:31:45
+            - generic [ref=e409]: Mumbai
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - generic:
+              - img
+            - generic [ref=e414]:
+              - generic [ref=e415]:
+                - generic [ref=e416]: RFID SCAN
+                - generic [ref=e417]: PKG-3045
+              - paragraph [ref=e418]: RFID scan at Hyderabad — delay flag triggered by system
+          - generic [ref=e419]:
+            - generic [ref=e420]: 16:30:08
+            - generic [ref=e421]: Hyderabad
